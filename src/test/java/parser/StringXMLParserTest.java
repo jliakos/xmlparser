@@ -1,11 +1,11 @@
 package parser;
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static parser.StringXMLParser.DELIMITER;
 
-public class StringXMLParserTest extends TestCase {
+public class StringXMLParserTest {
 	final StringXMLParser parser = new StringXMLParser();
 	final String xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
 			"<breakfast_menu>\n" +

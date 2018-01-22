@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class StringXMLParser {
 
-	private static final String DELIMITER = "//";
+	public static final String DELIMITER = "//";
 
 
 	private String getValue(String source,
@@ -37,7 +37,6 @@ public class StringXMLParser {
 		if (StringUtils.isEmpty(source)) {
 			return null;
 		}
-
 
 		try {
 
